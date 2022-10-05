@@ -1,4 +1,4 @@
-var input=prompt("Enter your name,beginning with Caps E.g Nuel");
+var input=prompt("Enter your name,beginning with Caps E.g Nuel. English names only");
   document.getElementById('demo').innerHTML=input
           if (input=="Nuel"){
             let convert = document.querySelector(".convert");
