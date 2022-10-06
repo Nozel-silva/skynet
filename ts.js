@@ -2,7 +2,7 @@ var names = new Array("Nuel","Faith","Joshua","Favour","collins","Blossom","Soph
 
 
 
-var input=prompt("Enter your name. Begin wit caps. English names mostly");
+var input=prompt("Enter your name. Begin with caps. English names mostly");
   document.getElementById('demo').innerHTML=input
           if (input== "Daniel"){
             let convert = document.querySelector(".convert");
