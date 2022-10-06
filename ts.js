@@ -666,7 +666,7 @@ else{
 
 let convert = document.querySelector(".convert");
 let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".daniel");
+let textarea = document.querySelector(".oda");
 let volume = document.querySelector(".volume");
 let pitch = document.querySelector(".pitch");
 let rate = document.querySelector(".rate");
