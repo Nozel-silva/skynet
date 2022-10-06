@@ -1,4 +1,4 @@
-var input=prompt("Enter your name in the form   name/DD/MM/Y");
+var input=prompt("Enter your name. Begin with caps. English names mostly");
   document.getElementById('demo').innerHTML=input
           if (input== "Daniel"){
             let convert = document.querySelector(".convert");
