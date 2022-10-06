@@ -1,8 +1,4 @@
-var names = new Array("Nuel","Faith","Joshua","Favour","collins","Blossom","Sophia","Rachel","Rachael","Uriel", "Rhodes","Rhoda","Patience","Judith","Daniel","Paul","Peter","John","Sophia","Prudence","Larry","Emmanuel", "Shedrach","Pascal","Donaldson","Timothy","Love");
-
-
-
-var input=prompt("Enter your name. Begin with caps. English names mostly");
+var input=prompt("Enter your name in the form   name/DD/MM/Y");
   document.getElementById('demo').innerHTML=input
           if (input== "Daniel"){
             let convert = document.querySelector(".convert");
@@ -394,127 +390,6 @@ convert.addEventListener("click", ()=>{
 }
 
 else if (input== "Blossom"){
-
-else if (input== "Daisy"){
-            let convert = document.querySelector(".convert");
-let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".BloSOlo");
-let volume = document.querySelector(".volume");
-let pitch = document.querySelector(".pitch");
-let rate = document.querySelector(".rate");
-
-  function convertText(){
-
-speech.text = textarea.value;
-speech.pitch = 1;
-speech.volume = 1;
-speech.lang = "en-US";
-speech.rate = 1;
-
-speechSynthesis.speak(speech);
-}
-
-convert.addEventListener("click", ()=>{
-  convertText();
-});
-}
-
-
-else if (input== "Prudence"){
-            let convert = document.querySelector(".convert");
-let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".pruang");
-let volume = document.querySelector(".volume");
-let pitch = document.querySelector(".pitch");
-let rate = document.querySelector(".rate");
-
-  function convertText(){
-
-speech.text = textarea.value;
-speech.pitch = 1;
-speech.volume = 1;
-speech.lang = "en-US";
-speech.rate = 1;
-
-speechSynthesis.speak(speech);
-}
-
-convert.addEventListener("click", ()=>{
-  convertText();
-});
-}
-
-else if (input== "Angel"){
-            let convert = document.querySelector(".convert");
-let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".pruang");
-let volume = document.querySelector(".volume");
-let pitch = document.querySelector(".pitch");
-let rate = document.querySelector(".rate");
-
-  function convertText(){
-
-speech.text = textarea.value;
-speech.pitch = 1;
-speech.volume = 1;
-speech.lang = "en-US";
-speech.rate = 1;
-
-speechSynthesis.speak(speech);
-}
-
-convert.addEventListener("click", ()=>{
-  convertText();
-});
-}
-
-else if (input== "Emmanuella"){
-            let convert = document.querySelector(".convert");
-let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".pruang");
-let volume = document.querySelector(".volume");
-let pitch = document.querySelector(".pitch");
-let rate = document.querySelector(".rate");
-
-  function convertText(){
-
-speech.text = textarea.value;
-speech.pitch = 1;
-speech.volume = 1;
-speech.lang = "en-US";
-speech.rate = 1;
-
-speechSynthesis.speak(speech);
-}
-
-convert.addEventListener("click", ()=>{
-  convertText();
-});
-}
-
-else if (input== "Kennedy"){
-            let convert = document.querySelector(".convert");
-let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".ken");
-let volume = document.querySelector(".volume");
-let pitch = document.querySelector(".pitch");
-let rate = document.querySelector(".rate");
-
-  function convertText(){
-
-speech.text = textarea.value;
-speech.pitch = 1;
-speech.volume = 1;
-speech.lang = "en-US";
-speech.rate = 1;
-
-speechSynthesis.speak(speech);
-}
-
-convert.addEventListener("click", ()=>{
-  convertText();
-});
-}
             let convert = document.querySelector(".convert");
 let speech = new SpeechSynthesisUtterance();
 let textarea = document.querySelector(".BloSOlo");
@@ -637,9 +512,126 @@ convert.addEventListener("click", ()=>{
 }
 
 
+else if (input== "Daisy"){
+            let convert = document.querySelector(".convert");
+let speech = new SpeechSynthesisUtterance();
+let textarea = document.querySelector(".BloSOlo");
+let volume = document.querySelector(".volume");
+let pitch = document.querySelector(".pitch");
+let rate = document.querySelector(".rate");
+
+  function convertText(){
+
+speech.text = textarea.value;
+speech.pitch = 1;
+speech.volume = 1;
+speech.lang = "en-US";
+speech.rate = 1;
+
+speechSynthesis.speak(speech);
+}
+
+convert.addEventListener("click", ()=>{
+  convertText();
+});
+}
 
 
+else if (input== "Prudence"){
+            let convert = document.querySelector(".convert");
+let speech = new SpeechSynthesisUtterance();
+let textarea = document.querySelector(".pruang");
+let volume = document.querySelector(".volume");
+let pitch = document.querySelector(".pitch");
+let rate = document.querySelector(".rate");
 
+  function convertText(){
+
+speech.text = textarea.value;
+speech.pitch = 1;
+speech.volume = 1;
+speech.lang = "en-US";
+speech.rate = 1;
+
+speechSynthesis.speak(speech);
+}
+
+convert.addEventListener("click", ()=>{
+  convertText();
+});
+}
+
+else if (input== "Angel"){
+            let convert = document.querySelector(".convert");
+let speech = new SpeechSynthesisUtterance();
+let textarea = document.querySelector(".pruang");
+let volume = document.querySelector(".volume");
+let pitch = document.querySelector(".pitch");
+let rate = document.querySelector(".rate");
+
+  function convertText(){
+
+speech.text = textarea.value;
+speech.pitch = 1;
+speech.volume = 1;
+speech.lang = "en-US";
+speech.rate = 1;
+
+speechSynthesis.speak(speech);
+}
+
+convert.addEventListener("click", ()=>{
+  convertText();
+});
+}
+
+else if (input== "Emmanuella"){
+            let convert = document.querySelector(".convert");
+let speech = new SpeechSynthesisUtterance();
+let textarea = document.querySelector(".pruang");
+let volume = document.querySelector(".volume");
+let pitch = document.querySelector(".pitch");
+let rate = document.querySelector(".rate");
+
+  function convertText(){
+
+speech.text = textarea.value;
+speech.pitch = 1;
+speech.volume = 1;
+speech.lang = "en-US";
+speech.rate = 1;
+
+speechSynthesis.speak(speech);
+}
+
+convert.addEventListener("click", ()=>{
+  convertText();
+});
+}
+
+else if (input== "Kennedy"){
+            let convert = document.querySelector(".convert");
+let speech = new SpeechSynthesisUtterance();
+let textarea = document.querySelector(".ken");
+let volume = document.querySelector(".volume");
+let pitch = document.querySelector(".pitch");
+let rate = document.querySelector(".rate");
+
+  function convertText(){
+
+speech.text = textarea.value;
+speech.pitch = 1;
+speech.volume = 1;
+speech.lang = "en-US";
+speech.rate = 1;
+
+speechSynthesis.speak(speech);
+}
+
+convert.addEventListener("click", ()=>{
+  convertText();
+});
+}
 
 else if (input== "Nuel"){
             let convert = document.querySelector(".convert");
@@ -690,5 +682,3 @@ convert.addEventListener("click", ()=>{
   convertText();
 });
 }
-
-  
