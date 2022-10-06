@@ -1,8 +1,4 @@
-var names = new Array("Nuel","Faith","Joshua","Favour","collins","Blossom","Sophia","Rachel","Rachael","Uriel", "Rhodes","Rhoda","Patience","Judith","Daniel","Paul","Peter","John","Sophia","Prudence","Larry","Emmanuel", "Shedrach","Pascal","Donaldson","Timothy","Love");
-
-
-
-var input=prompt("Enter your name in the form   name/DD/MM/Y");
+var input=prompt("Enter your name. Begin with caps. English names mostly");
   document.getElementById('demo').innerHTML=input
           if (input== "Daniel"){
             let convert = document.querySelector(".convert");
@@ -666,7 +662,7 @@ else{
 
 let convert = document.querySelector(".convert");
 let speech = new SpeechSynthesisUtterance();
-let textarea = document.querySelector(".daniel");
+let textarea = document.querySelector(".oda");
 let volume = document.querySelector(".volume");
 let pitch = document.querySelector(".pitch");
 let rate = document.querySelector(".rate");
@@ -686,5 +682,3 @@ convert.addEventListener("click", ()=>{
   convertText();
 });
 }
-
-  
